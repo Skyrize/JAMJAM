@@ -221,7 +221,6 @@ MonoBehaviour:
   m_rotationLerpSpeed: 10
   m_flyMaxSpeed: 20
   m_flyAcceleration: 25
-  m_flyTimeToReachAcceleration: 1
   m_flyAccelerationCurve:
     serializedVersion: 2
     m_Curve:
@@ -257,7 +256,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_fallMaxSpeed: 20
   m_fallAcceleration: 25
-  m_fallTimeToReachAcceleration: 1
   m_fallAccelerationCurve:
     serializedVersion: 2
     m_Curve:
@@ -829,7 +827,7 @@ Transform:
   m_GameObject: {fileID: 7765031005032305140}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -896,10 +894,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 50, y: 25}
-      - {x: -50, y: 25}
-      - {x: -50, y: -25}
-      - {x: 50, y: -25}
+    - - {x: 50, y: 15}
+      - {x: -50, y: 15}
+      - {x: -50, y: -20}
+      - {x: 50, y: -20}
   m_UseDelaunayMesh: 0
 --- !u!1 &8260376226247422534
 GameObject:

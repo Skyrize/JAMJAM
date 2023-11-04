@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class TransformBinderComponent : MonoBehaviour
 {
     [SerializeField] Transform m_target;
@@ -9,6 +10,12 @@ public class TransformBinderComponent : MonoBehaviour
     [SerializeField] bool m_followY;
 
     Vector2 m_basePosition;
+
+    private void Awake()
+    {
+        m_basePosition = transform.position;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
