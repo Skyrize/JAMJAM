@@ -78,7 +78,6 @@ public class AirplaneComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("ratio" + VerticalVelocityRatio);
         if (IsFlying)
         {
             UpdateFly();
