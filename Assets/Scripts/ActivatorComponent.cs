@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class ActivatorComponent : MonoBehaviour
@@ -9,14 +7,14 @@ public class ActivatorComponent : MonoBehaviour
     [SerializeField] float m_xThresholdActivation = 50;
     [SerializeField] float m_xThresholdDestruction= 50;
 
-    ActivatableComponent[] m_activatables;
+    List<ActivatableComponent> m_activatables;
 
     Vector3 m_position => transform.position;
     ActivatableComponent m_activatable => m_activatables[m_currentIndex];
     Vector3 m_activatablePosition => m_activatable.transform.position;
     private void Awake()
     {
-        m_activatables = FindObjectsByType<ActivatableComponent>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+        m_activatables = new List<ActivatableComponent>(FindObjectsByType<ActivatableComponent>(FindObjectsInactive.Include, FindObjectsSortMode.None));
 
         foreach (ActivatableComponent component in m_activatables)
         {
@@ -32,7 +30,7 @@ public class ActivatorComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_currentIndex == -1)
+        if (m_activatables.Count == 0)
             return;
 
         float xDistance = Mathf.Abs(m_position.x - m_activatablePosition.x);
@@ -42,9 +40,9 @@ public class ActivatorComponent : MonoBehaviour
             m_activatable.DestroyByDistance(transform, m_xThresholdDestruction);
 
             m_currentIndex++;
-            if (m_currentIndex == m_activatables.Length)
+            if (m_currentIndex == m_activatables.Count)
             {
-                m_currentIndex = -1;
+                m_activatables.Clear();
             }
         }
     }
