@@ -10,6 +10,7 @@ public class AirplaneComponent : MonoBehaviour
     [SerializeField] float m_accelerationSpeed = 4;
     [SerializeField] float m_maxUpAngle = 35;
     [SerializeField] float m_maxDownAngle = -35;
+    [SerializeField] float m_rotationLerpSpeed = 4;
 
     [Header("Fly")]
     [SerializeField] float m_flyMaxSpeed = 10;
@@ -34,6 +35,7 @@ public class AirplaneComponent : MonoBehaviour
     }
 
     Vector3 lastPos = Vector3.zero;
+    Vector3 smoothVelocity;
     private void FixedUpdate()
     {
         m_rigidBody.AddForce(transform.up * m_speed, ForceMode2D.Force);
@@ -42,7 +44,7 @@ public class AirplaneComponent : MonoBehaviour
         Vector3 direction = transform.position - lastPos;
         if (direction.magnitude < Mathf.Epsilon)
             direction = transform.right;
-        m_rigidBody.rotation = Vector3.SignedAngle(Vector3.right, direction, Vector3.forward);
+        m_rigidBody.rotation = Mathf.Lerp(m_rigidBody.rotation, Vector3.SignedAngle(Vector3.right, direction, Vector3.forward), Time.fixedDeltaTime * m_rotationLerpSpeed);
         lastPos = transform.position;
     }
 
@@ -84,7 +86,6 @@ public class AirplaneComponent : MonoBehaviour
         {
             UpdateFall();
         }
-        Debug.Log("Speed" + m_speed);
     }
 
     private void OnDrawGizmos()
