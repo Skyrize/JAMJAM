@@ -57,8 +57,7 @@ public class AirplaneComponent : MonoBehaviour
     void UpdateFly()
     {
         m_timeFalling = 0;
-
-        SetSpeed(m_flyAcceleration * m_flyAccelerationCurve.Evaluate(m_timeFlying / m_flyTimeToReachAcceleration));
+        SetSpeed(m_flyAcceleration * m_flyAccelerationCurve.Evaluate(m_rigidBody.velocity.y / m_flyMaxSpeed));
 
         m_timeFlying += Time.deltaTime;
     }
@@ -68,7 +67,7 @@ public class AirplaneComponent : MonoBehaviour
     {
         m_timeFlying = 0;
 
-        SetSpeed(-m_fallAcceleration * m_fallAccelerationCurve.Evaluate(m_timeFalling / m_fallTimeToReachAcceleration));
+        SetSpeed(-m_fallAcceleration * m_fallAccelerationCurve.Evaluate(-m_rigidBody.velocity.y / m_fallMaxSpeed));
 
         m_timeFalling += Time.deltaTime;
     }
