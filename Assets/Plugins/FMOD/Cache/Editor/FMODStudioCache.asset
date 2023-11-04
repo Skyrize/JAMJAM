@@ -49,7 +49,7 @@ MonoBehaviour:
   - {fileID: 5234101083844871217}
   StringsBanks:
   - {fileID: 5236772854056667885}
-  cacheTime: 638344607526341876
+  cacheTime: 638344810696199707
   cacheVersion: 131608
 --- !u!114 &5234101083844871217
 MonoBehaviour:
@@ -66,7 +66,7 @@ MonoBehaviour:
   Path: Fmod_Banks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638344607526321928
+  lastModified: 638344810696145609
   FileSizes:
   - Name: Desktop
     Value: 1574
@@ -86,7 +86,7 @@ MonoBehaviour:
   Path: Fmod_Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638344607526341876
+  lastModified: 638344810696199707
   FileSizes:
   - Name: Desktop
     Value: 754
