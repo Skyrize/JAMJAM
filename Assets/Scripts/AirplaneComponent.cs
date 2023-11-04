@@ -15,18 +15,20 @@ public class AirplaneComponent : MonoBehaviour
     [Header("Fly")]
     [SerializeField] float m_flyMaxSpeed = 10;
     [SerializeField] float m_flyAcceleration = 3;
-    [SerializeField] float m_flyTimeToReachAcceleration = 1;
     [SerializeField] AnimationCurve m_flyAccelerationCurve = new AnimationCurve();
 
     [Header("Fall")]
     [SerializeField] float m_fallMaxSpeed = 2;
     [SerializeField] float m_fallAcceleration = 2;
-    [SerializeField] float m_fallTimeToReachAcceleration = 3;
     [SerializeField] AnimationCurve m_fallAccelerationCurve = new AnimationCurve();
 
+    // Public accessors
+    public bool IsFlying = false;
+
+    public float VerticalVelocity => m_rigidBody.velocity.y;
+    public float VerticalVelocityRatio => Mathf.Clamp(VerticalVelocity > 0 ? VerticalVelocity / m_flyMaxSpeed : VerticalVelocity / m_fallMaxSpeed, -1, 1);
 
     Rigidbody2D m_rigidBody;
-    public bool IsFlying = false;
     float m_speed = 0;
 
     private void Awake()
@@ -76,6 +78,7 @@ public class AirplaneComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("ratio" + VerticalVelocityRatio);
         if (IsFlying)
         {
             UpdateFly();
