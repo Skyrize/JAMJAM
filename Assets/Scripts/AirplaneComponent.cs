@@ -26,7 +26,7 @@ public class AirplaneComponent : MonoBehaviour
 
 
     Rigidbody2D m_rigidBody;
-    bool m_isFlying = false;
+    public bool IsFlying = false;
     float m_speed = 0;
 
     private void Awake()
@@ -73,12 +73,11 @@ public class AirplaneComponent : MonoBehaviour
         m_timeFalling += Time.deltaTime;
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        m_isFlying = Input.GetKey(KeyCode.Space);
-
-        if (m_isFlying)
+        if (IsFlying)
         {
             UpdateFly();
         }
