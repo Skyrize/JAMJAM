@@ -25,7 +25,7 @@ public class ParallaxComponent : MonoBehaviour
     void SetupBackgrounds()
     {
         m_backgrounds = GetComponentsInChildren<SpriteRenderer>();
-        if (m_backgrounds.Length != 2)
+        if (m_backgrounds.Length < 2)
             throw new UnityException("Missing backgrounds");
         m_xOffset = m_backgrounds[0].sprite.bounds.size.x * transform.lossyScale.x;
         ReplaceBackground();
@@ -35,9 +35,11 @@ public class ParallaxComponent : MonoBehaviour
     {
         float xExcess = m_replaceThreshold - m_currentPosition;
         Vector3 basePosition = new Vector3(m_camera.position.x - xExcess, m_y, m_z);
-        m_backgrounds[0].transform.position = basePosition;
-        basePosition.x += m_xOffset;
-        m_backgrounds[1].transform.position = basePosition;
+        foreach (var background in m_backgrounds)
+        {
+            background.transform.position = basePosition;
+            basePosition.x += m_xOffset;
+        }
     }
 
     // Update is called once per frame
