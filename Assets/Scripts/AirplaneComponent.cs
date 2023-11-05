@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
 public class AirplaneComponent : MonoBehaviour
@@ -27,8 +29,8 @@ public class AirplaneComponent : MonoBehaviour
     // Public accessors
     public bool IsFlying = false;
 
-    public float VerticalVelocity => m_rigidBody.velocity.y;
-    public float VerticalVelocityRatio => Mathf.Clamp(VerticalVelocity > 0 ? VerticalVelocity / m_flyMaxSpeed : VerticalVelocity / m_fallMaxSpeed, -1, 1);
+    public float verticalVelocity => m_rigidBody.velocity.y;
+    public float verticalVelocityRatio => Mathf.Clamp(verticalVelocity > 0 ? verticalVelocity / m_flyMaxSpeed : verticalVelocity / m_fallMaxSpeed, -1, 1);
 
     Rigidbody2D m_rigidBody;
     float m_speed = 0;
@@ -50,6 +52,9 @@ public class AirplaneComponent : MonoBehaviour
             direction = transform.right;
         m_rigidBody.rotation = Mathf.Lerp(m_rigidBody.rotation, Vector3.SignedAngle(Vector3.right, direction, Vector3.forward), Time.fixedDeltaTime * m_rotationLerpSpeed);
         lastPos = transform.position;
+        
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Vitesse", verticalVelocityRatio);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Distance_Sea_Sky", transform.position.y / 15f);
     }
 
     void SetSpeed(float _newSpeed)
