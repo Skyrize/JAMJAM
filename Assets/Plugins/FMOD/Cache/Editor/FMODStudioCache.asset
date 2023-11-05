@@ -1,6 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3381273736772202393
+--- !u!114 &-9213217605312461164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_UI_Hits/PV
+  m_EditorClassIdentifier: 
+  Name: PV
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1942224774
+    data2: 1448893275
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8948478267795672395
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +34,238 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
+  m_Name: event:/AMB/Monsters/Amb_Monsters_3D
   m_EditorClassIdentifier: 
-  Path: event:/Test
+  Path: event:/AMB/Monsters/Amb_Monsters_3D
   Guid:
-    Data1: -391032196
-    Data2: 1211021012
-    Data3: -1941991283
-    Data4: -71282358
+    Data1: 1625327536
+    Data2: 1312418252
+    Data3: -2090241654
+    Data4: 57670737
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1958436474967740591}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24003
+--- !u!114 &-8926021008785885794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Plane_Metal_OS/Vitesse
+  m_EditorClassIdentifier: 
+  Name: Vitesse
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1500977415
+    data2: 815573845
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8669470140324724155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sea_2D/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8182559225446154674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Plane_Engine_Lp/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8068713443523696758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sky_liquid/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7936497184406176817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sea_Noises/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7359069935025971014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sea_Wood/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6327163483889418590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_Ui/SFX_UI_Hits
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_Ui/SFX_UI_Hits
+  Guid:
+    Data1: -204921696
+    Data2: 1264017334
+    Data3: 1302692264
+    Data4: -1066497861
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9213217605312461164}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2854
+--- !u!114 &-5560021235333507012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sea_Wood/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5354845088932343292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_Ui/SFX_UI_PV_gain
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_Ui/SFX_UI_PV_gain
+  Guid:
+    Data1: -1026061066
+    Data2: 1233893785
+    Data3: 852810917
+    Data4: 1146823680
   Banks:
   - {fileID: 5234101083844871217}
   IsStream: 0
@@ -26,7 +274,429 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 2324
+--- !u!114 &-4148496464617959372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sea/Amb_Textures_Sea_Noises
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sea/Amb_Textures_Sea_Noises
+  Guid:
+    Data1: 1002238576
+    Data2: 1277975480
+    Data3: 790772368
+    Data4: 810193571
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5515494551018414350}
+  - {fileID: -7936497184406176817}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12800
+--- !u!114 &-3303018528146582412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Monsters/SFX_Scream_Monster_3D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Monsters/SFX_Scream_Monster_3D
+  Guid:
+    Data1: -372899347
+    Data2: 1231052765
+    Data3: 1982270128
+    Data4: -769264962
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13360
+--- !u!114 &-3186470672495529804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sky/Amb_Textures_Sky_noises
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sky/Amb_Textures_Sky_noises
+  Guid:
+    Data1: -256867969
+    Data2: 1257086760
+    Data3: -1082999896
+    Data4: -506617846
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -716060594385321048}
+  - {fileID: 8598252792005212543}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
+--- !u!114 &-3068293364655764814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sea/Amb_Sea_3D
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sea/Amb_Sea_3D
+  Guid:
+    Data1: -1504803642
+    Data2: 1214897060
+    Data3: 1114011817
+    Data4: -2067419707
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -649833904621382731}
+  - {fileID: 5775595940618806413}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24500
+--- !u!114 &-3058591156601815797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sky/Amb_Sky
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sky/Amb_Sky
+  Guid:
+    Data1: 622295651
+    Data2: 1298407430
+    Data3: 1624602791
+    Data4: -1273195443
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4299417419151766785}
+  - {fileID: 3706656962328663655}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24574
+--- !u!114 &-2840464292113025392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Sky/SFX_Thunder_3D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Sky/SFX_Thunder_3D
+  Guid:
+    Data1: -870426089
+    Data2: 1241674533
+    Data3: -1222567038
+    Data4: 1894736145
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5145
+--- !u!114 &-2732881350398853698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Sky/SFX_Birds_3D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Sky/SFX_Birds_3D
+  Guid:
+    Data1: -2076914688
+    Data2: 1229387319
+    Data3: -1030111834
+    Data4: 1383466950
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5145
+--- !u!114 &-2481814626560637951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Ants_3D_Sky/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2066312353451097634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Plane/SFX_Plane_Metal_OS
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Plane/SFX_Plane_Metal_OS
+  Guid:
+    Data1: -701104544
+    Data2: 1229145056
+    Data3: 797959060
+    Data4: -2022750455
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -938098917525957571}
+  - {fileID: -8926021008785885794}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7717
+--- !u!114 &-2043485305675657031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Thunder/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1033830803904345672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Monsters/Amb_Monsters_2D
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Monsters/Amb_Monsters_2D
+  Guid:
+    Data1: -1983617120
+    Data2: 1121814975
+    Data3: 1660407181
+    Data4: -313138844
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2740494450948495073}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24000
+--- !u!114 &-973658140009193706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sky_liquid/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-938098917525957571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Plane_Metal_OS/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-716060594385321048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sky_noises/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-649833904621382731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sea_3D/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-135809804403881597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Rocks/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,14 +713,394 @@ MonoBehaviour:
   - {fileID: 5236772854056667885}
   - {fileID: 5234101083844871217}
   EditorEvents:
-  - {fileID: -3381273736772202393}
-  EditorParameters: []
+  - {fileID: -2732881350398853698}
+  - {fileID: -2840464292113025392}
+  - {fileID: 8395764208527441574}
+  - {fileID: 8051093834376795518}
+  - {fileID: 6660907809179067226}
+  - {fileID: 8200040057948678865}
+  - {fileID: 3321977123767211759}
+  - {fileID: 6127150383321883102}
+  - {fileID: 3077933109543832283}
+  - {fileID: -2066312353451097634}
+  - {fileID: 3602351667243017838}
+  - {fileID: -3058591156601815797}
+  - {fileID: -4148496464617959372}
+  - {fileID: -3186470672495529804}
+  - {fileID: 6956595566199504143}
+  - {fileID: 794840313747838216}
+  - {fileID: -6327163483889418590}
+  - {fileID: -1033830803904345672}
+  - {fileID: -8948478267795672395}
+  - {fileID: -3068293364655764814}
+  - {fileID: 7057479301338244487}
+  - {fileID: -3303018528146582412}
+  - {fileID: -5354845088932343292}
+  EditorParameters:
+  - {fileID: 6484540296918416948}
+  - {fileID: 4051170703064185191}
+  - {fileID: 4547141899630975916}
+  - {fileID: 39109258076870083}
   MasterBanks:
   - {fileID: 5234101083844871217}
   StringsBanks:
   - {fileID: 5236772854056667885}
-  cacheTime: 638345459039934220
+  cacheTime: 638347897998669561
   cacheVersion: 131608
+--- !u!114 &39109258076870083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: parameter:/Niveau
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &794840313747838216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Monsters/Amb_Ants_3D_Sky
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Monsters/Amb_Ants_3D_Sky
+  Guid:
+    Data1: -824162680
+    Data2: 1324077563
+    Data3: -1360644169
+    Data4: -1330677484
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2481814626560637951}
+  - {fileID: 4522958283466411238}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
+--- !u!114 &1569603620999092215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Thunder/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1958436474967740591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Monsters_3D/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2740494450948495073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Monsters_2D/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3077933109543832283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Plane/SFX_Plane_Engine_Lp
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Plane/SFX_Plane_Engine_Lp
+  Guid:
+    Data1: 445800031
+    Data2: 1280522765
+    Data3: -1524568434
+    Data4: -1906472887
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8182559225446154674}
+  - {fileID: 8469991467613005177}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40462
+--- !u!114 &3321977123767211759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Amb_Textures_Rocks
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Amb_Textures_Rocks
+  Guid:
+    Data1: -396053691
+    Data2: 1093103958
+    Data3: 1433667998
+    Data4: -546681449
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -135809804403881597}
+  - {fileID: 4883669325601812252}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
+--- !u!114 &3602351667243017838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  Guid:
+    Data1: 1584870242
+    Data2: 1161513141
+    Data3: 147382160
+    Data4: 329091289
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3706656962328663655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sky/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4051170703064185191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: parameter:/Distance_Sea_Sky
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4299417419151766785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sky/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4522958283466411238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Ants_3D_Sky/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4547141899630975916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PV
+  m_EditorClassIdentifier: 
+  Name: PV
+  StudioPath: parameter:/PV
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1942224774
+    data2: 1448893275
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4883669325601812252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Rocks/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5234101083844871217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,10 +1116,8 @@ MonoBehaviour:
   Path: Fmod_Banks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638345459039934220
-  FileSizes:
-  - Name: Desktop
-    Value: 1574
+  lastModified: 638347897998589746
+  FileSizes: []
   Exists: 1
 --- !u!114 &5236772854056667885
 MonoBehaviour:
@@ -86,8 +1134,349 @@ MonoBehaviour:
   Path: Fmod_Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638345459039934220
+  lastModified: 638347897998669561
   FileSizes:
-  - Name: Desktop
-    Value: 754
+  - Name: 
+    Value: 2610
+  Exists: 1
+--- !u!114 &5515494551018414350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sea_Noises/Niveau
+  m_EditorClassIdentifier: 
+  Name: Niveau
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 3549868342
+    data2: 8048966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5775595940618806413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sea_3D/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6127150383321883102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sea/Amb_Sea_2D
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sea/Amb_Sea_2D
+  Guid:
+    Data1: 746758739
+    Data2: 1323371229
+    Data3: -882353497
+    Data4: -2008988803
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8669470140324724155}
+  - {fileID: 6270582613570771268}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24500
+--- !u!114 &6270582613570771268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Sea_2D/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6484540296918416948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Vitesse
+  m_EditorClassIdentifier: 
+  Name: Vitesse
+  StudioPath: parameter:/Vitesse
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1500977415
+    data2: 815573845
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6660907809179067226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sky/Amb_Textures_Sky_liquid
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sky/Amb_Textures_Sky_liquid
+  Guid:
+    Data1: 1737774400
+    Data2: 1108698576
+    Data3: -989945453
+    Data4: -1619624677
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -973658140009193706}
+  - {fileID: -8068713443523696758}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3600
+--- !u!114 &6956595566199504143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sea/Amb_Textures_Sea_Wood
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sea/Amb_Textures_Sea_Wood
+  Guid:
+    Data1: -892417661
+    Data2: 1321717703
+    Data3: -346422138
+    Data4: -770490573
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5560021235333507012}
+  - {fileID: -7359069935025971014}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
+--- !u!114 &7057479301338244487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AMB/Sky/Amb_Thunder
+  m_EditorClassIdentifier: 
+  Path: event:/AMB/Sky/Amb_Thunder
+  Guid:
+    Data1: -503249719
+    Data2: 1167634008
+    Data3: 1993151407
+    Data4: -1860492613
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1569603620999092215}
+  - {fileID: -2043485305675657031}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23500
+--- !u!114 &8051093834376795518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_Ui/SFX_UI_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_Ui/SFX_UI_Death
+  Guid:
+    Data1: -831190488
+    Data2: 1180281982
+    Data3: -233442151
+    Data4: 1518166058
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1096
+--- !u!114 &8200040057948678865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Monsters/SFX_Breath_Monster_3D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Monsters/SFX_Breath_Monster_3D
+  Guid:
+    Data1: -980043709
+    Data2: 1121265952
+    Data3: 1073014664
+    Data4: 277060347
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4745
+--- !u!114 &8395764208527441574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX_Ui/SFX_UI_PV_Loose
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX_Ui/SFX_UI_PV_Loose
+  Guid:
+    Data1: 1299515170
+    Data2: 1177323291
+    Data3: -1082220889
+    Data4: -800093092
+  Banks:
+  - {fileID: 5234101083844871217}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 198
+--- !u!114 &8469991467613005177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SFX_Plane_Engine_Lp/Vitesse
+  m_EditorClassIdentifier: 
+  Name: Vitesse
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1500977415
+    data2: 815573845
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8598252792005212543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_Textures_Sky_noises/Distance_Sea_Sky
+  m_EditorClassIdentifier: 
+  Name: Distance_Sea_Sky
+  StudioPath: 
+  Min: -1
+  Max: 1
+  Default: 0
+  ID:
+    data1: 44498248
+    data2: 2231035565
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
