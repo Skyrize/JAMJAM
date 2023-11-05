@@ -291,7 +291,7 @@ MonoBehaviour:
     Path: event:/SFX/Plane/SFX_Plane_Metal_OS
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
     Path: event:/SFX/Plane/SFX_Plane_Engine_Lp
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -344,6 +344,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 0}
+--- !u!114 &519116019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519116000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1584870242
+      Data2: 1161513141
+      Data3: 147382160
+      Data4: 329091289
+    Path: event:/Music/Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &585447461
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,8 +523,8 @@ GameObject:
   - component: {fileID: 750377527}
   - component: {fileID: 750377526}
   - component: {fileID: 750377525}
-  - component: {fileID: 750377524}
   - component: {fileID: 750377534}
+  - component: {fileID: 750377535}
   m_Layer: 0
   m_Name: Audio_Amb
   m_TagString: Untagged
@@ -516,37 +547,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &750377524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750377521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1584870242
-      Data2: 1161513141
-      Data3: 147382160
-      Data4: 329091289
-    Path: event:/Music/Music
-  Event: 
-  PlayEvent: 1
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &750377525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
     Path: event:/AMB/Amb_Textures_Rocks
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
     Path: event:/AMB/Sky/Amb_Thunder
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -631,7 +631,7 @@ MonoBehaviour:
     Path: event:/AMB/Sky/Amb_Textures_Sky_noises
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     Path: event:/AMB/Sky/Amb_Textures_Sky_liquid
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
     Path: event:/AMB/Sky/Amb_Sky
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -724,7 +724,7 @@ MonoBehaviour:
     Path: event:/AMB/Sea/Amb_Textures_Sea_Wood
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
     Path: event:/AMB/Sea/Amb_Textures_Sea_Noises
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -786,7 +786,7 @@ MonoBehaviour:
     Path: event:/AMB/Monsters/Amb_Monsters_2D
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -817,7 +817,7 @@ MonoBehaviour:
     Path: event:/AMB/Sea/Amb_Sea_2D
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -841,7 +841,38 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: Niveau
   TriggerEvent: 1
-  Value: 7.7
+  Value: 8
+--- !u!114 &750377535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750377521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1625327536
+      Data2: 1312418252
+      Data3: -2090241654
+      Data4: 57670737
+    Path: event:/AMB/Monsters/Amb_Monsters_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &756642001 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4982396898310153390, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
@@ -1673,6 +1704,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2145890232991868971, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519116013}
+    - targetCorrespondingSourceObject: {fileID: 2145890232991868971, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 519116019}
   m_SourcePrefab: {fileID: 100100000, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
 --- !u!1001 &4734850027021436343
 PrefabInstance:
