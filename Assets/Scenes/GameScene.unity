@@ -315,6 +315,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 678805997493123378, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678498862103619148, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5276210447983821774, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -360,12 +368,20 @@ PrefabInstance:
       value: PlayerContainer
       objectReference: {fileID: 0}
     - target: {fileID: 7448890058045709556, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7448890058045709556, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7626210118356060917, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7626210118356060917, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -380,6 +396,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 79087250879914466, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149638859457455264, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4441726082555864424, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -488,6 +512,10 @@ PrefabInstance:
     - target: {fileID: 6061633760963996337, guid: cba824bad049c774bae073d14c0c9d06, type: 3}
       propertyPath: m_Name
       value: Parallax Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061633760963996337, guid: cba824bad049c774bae073d14c0c9d06, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
