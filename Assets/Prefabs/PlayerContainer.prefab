@@ -314,8 +314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e98bcc3be2db7f04e9160e86ec157e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_xThresholdActivation: 50
-  m_xThresholdDestruction: 25
 --- !u!1 &3968649451309854816
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +734,7 @@ Transform:
   m_GameObject: {fileID: 7765031005032305140}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.9, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -803,8 +801,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 50, y: 15}
-      - {x: -50, y: 15}
+    - - {x: 50, y: 20}
+      - {x: -50, y: 20}
       - {x: -50, y: -20}
       - {x: 50, y: -20}
   m_UseDelaunayMesh: 0
