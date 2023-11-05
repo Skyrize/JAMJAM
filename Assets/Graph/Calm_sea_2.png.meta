@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Calm_sea_2_0: 3721144648613209976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

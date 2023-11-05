@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plane_sprite_0: 88472594025233492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
