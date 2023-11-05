@@ -22,6 +22,8 @@ public class AirplaneComponent : MonoBehaviour
     [SerializeField] float m_fallAcceleration = 2;
     [SerializeField] AnimationCurve m_fallAccelerationCurve = new AnimationCurve();
 
+    public float horizontalSpeed => m_horizontalSpeed;
+    
     // Public accessors
     public bool IsFlying = false;
 

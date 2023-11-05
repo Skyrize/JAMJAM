@@ -5,15 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private static GameManager m_instance;
+    public static GameManager instance
+    {
+        get
+        {
+            if (!m_instance)
+            {
+                m_instance = FindObjectOfType<GameManager>();
+            }
+            return m_instance;
+        }
+    }
+    public static AirplaneComponent airplane => instance.player.airplayController;
+    
     [SerializeField] float m_worldTopBoundary = 10;
     [SerializeField] float m_worldBotBoundary = -10;
-    PlayerController player;
+    PlayerController m_player;
 
-    float playerAltitude => player.transform.position.y;
+    public PlayerController player => m_player;
+
+    float playerAltitude => m_player.transform.position.y;
 
     private void Awake()
     {
-        player = FindAnyObjectByType<PlayerController>();
+        m_player = FindAnyObjectByType<PlayerController>();
     }
 
     public void ReloadCurrentScene()
