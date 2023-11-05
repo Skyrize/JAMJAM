@@ -120,6 +120,150 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &211280868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6136880274897180962, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &211280874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211280868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &334165641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6879278457597659648, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &334165647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334165641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &385721320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4809391265730025529, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &385721326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385721320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &400443554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 23310629642064201, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &400443560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400443554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &519116000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2145890232991868971, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
@@ -187,6 +331,19 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &519116013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519116000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &585447461
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +841,367 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: Niveau
   TriggerEvent: 1
-  Value: 10
+  Value: 7.7
+--- !u!1 &756642001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4982396898310153390, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &756642007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756642001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &866684327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1399074144085861454, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &866684333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866684327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &909362239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7508448278429501898, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &909362245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909362239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1194470889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7291535803479988809, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1194470895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194470889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1512563060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1547620060202577597, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1512563066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512563060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1706831317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4281462456240146167, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1706831323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706831317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1708217987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6764858298725005634, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1708217993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708217987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1717953669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2129401351066052583, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1717953675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717953669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1816279899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 654530102359447473, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1816279905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816279899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1847963507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8979338446429585251, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1847963513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847963507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1955992439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1816903327210492074, guid: 5f2140d7b77e1f548bdfbeeab6e6e45d, type: 3}
@@ -710,6 +1227,78 @@ MonoBehaviour:
       Data3: 1114011817
       Data4: -2067419707
     Path: event:/AMB/Sea/Amb_Sea_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1956900544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6594736868809373546, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1956900550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956900544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1975110562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7371249635590012334, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+  m_PrefabInstance: {fileID: 4734850027021436343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975110568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975110562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2076914688
+      Data2: 1229387319
+      Data3: -1030111834
+      Data4: 1383466950
+    Path: event:/SFX/Sky/SFX_Birds_3D
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -1081,6 +1670,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2145890232991868971, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519116006}
+    - targetCorrespondingSourceObject: {fileID: 2145890232991868971, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 519116013}
   m_SourcePrefab: {fileID: 100100000, guid: 8ef3da8dafb09db41b9d48e190246cb6, type: 3}
 --- !u!1001 &4734850027021436343
 PrefabInstance:
@@ -1137,7 +1729,55 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4982396898310153390, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 756642007}
+    - targetCorrespondingSourceObject: {fileID: 4281462456240146167, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1706831323}
+    - targetCorrespondingSourceObject: {fileID: 6136880274897180962, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 211280874}
+    - targetCorrespondingSourceObject: {fileID: 6594736868809373546, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1956900550}
+    - targetCorrespondingSourceObject: {fileID: 8979338446429585251, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1847963513}
+    - targetCorrespondingSourceObject: {fileID: 6764858298725005634, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1708217993}
+    - targetCorrespondingSourceObject: {fileID: 7371249635590012334, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1975110568}
+    - targetCorrespondingSourceObject: {fileID: 7291535803479988809, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1194470895}
+    - targetCorrespondingSourceObject: {fileID: 7508448278429501898, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 909362245}
+    - targetCorrespondingSourceObject: {fileID: 1399074144085861454, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 866684333}
+    - targetCorrespondingSourceObject: {fileID: 654530102359447473, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1816279905}
+    - targetCorrespondingSourceObject: {fileID: 4809391265730025529, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 385721326}
+    - targetCorrespondingSourceObject: {fileID: 2129401351066052583, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717953675}
+    - targetCorrespondingSourceObject: {fileID: 6879278457597659648, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 334165647}
+    - targetCorrespondingSourceObject: {fileID: 1547620060202577597, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1512563066}
+    - targetCorrespondingSourceObject: {fileID: 23310629642064201, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 400443560}
   m_SourcePrefab: {fileID: 100100000, guid: af9ff2030f87ac9439fc8a65beaaa632, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
